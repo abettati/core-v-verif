@@ -66,10 +66,11 @@ BANNER=*************************************************************************
 #      *_TAG:    Not yet supported (TODO).
 #                
 
-CV32E40P_REPO   ?= https://github.com/openhwgroup/cv32e40p
+CV32E40P_REPO   ?= https://github.com/abettati/cv32e40p
 CV32E40P_BRANCH ?= master
 #2020-09-08
-CV32E40P_HASH   ?= cb07a7aa77465797fdaa5e783ce2e6bacb922bb3
+#CV32E40P_HASH   ?= cb07a7aa77465797fdaa5e783ce2e6bacb922bb3
+CV32E40P_HASH   ?= head
 #2020-09-06
 #CV32E40P_HASH   ?= 3335dbcfcbdbec1c1f97fe13835fe13a63a321e0
 #2020-09-04
