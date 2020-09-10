@@ -103,6 +103,7 @@ VOPT_FLAGS    ?= -debugdb \
 # VSIM (Simulaion)
 VSIM_FLAGS        += $(VSIM_USER_FLAGS)
 VSIM_FLAGS        += $(USER_RUN_FLAGS)
+VSIM_FLAGS        += $(SV_CMP_FLAGS)
 VSIM_FLAGS        += -sv_seed $(RNDSEED)
 VSIM_FLAGS        += -suppress 7031
 VSIM_DEBUG_FLAGS  ?= -debugdb
